@@ -1,16 +1,11 @@
-pipeline
-	{
+pipeline	{
 		agent any
-			{
-				stages
-					{
-						stage ('print hi')
-							{
+				stages{
+						stage ('print hi'){
 								steps
 									{
 										sh 'echo hi';
 									}
 							}
 					}
-			}
 	}
