@@ -6,14 +6,11 @@ pipeline
 					{
 						stage ('print hi')
 							{
-								Steps
+								steps
 									{
 										sh 'echo hi'
 									}
-								
 							}
-					
 					}
-				
 			}
-	}		
+	}
